@@ -26,8 +26,12 @@
 
   .about {
     &__bio {
-      font-size: 1.5rem;
-      line-height: 1.5rem;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+
+      p {
+        margin-top: 1.5rem;
+      }
     }
   }
 
@@ -51,6 +55,11 @@
 }
 
 @include media-lg {
+  .about {
+    &__bio {
+      width: 60%;
+    }
+  }
   .projects {
     &__items {
       grid-template-columns: repeat(3, 1fr);

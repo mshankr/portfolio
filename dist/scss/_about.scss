@@ -23,7 +23,9 @@
   }
 
   &__bio {
-    width: 80%;
+    width: 70%;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     text-align: center;
 
     .text-secondary {
@@ -48,7 +50,8 @@
         margin: 0.5rem 0;
       }
 
-      h4 {
+      h4,
+      h5 {
         margin: 0.3rem 0;
       }
     }

@@ -184,7 +184,9 @@
 }
 
 .about__bio {
-  width: 80%;
+  width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   text-align: center;
 }
 
@@ -211,7 +213,8 @@
   margin: 0.5rem 0;
 }
 
-.about .jobs__job h4 {
+.about .jobs__job h4,
+.about .jobs__job h5 {
   margin: 0.3rem 0;
 }
 
@@ -342,7 +345,7 @@
 
 .contact h2 {
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .contact__list {
@@ -380,8 +383,11 @@
     font-size: 1rem;
   }
   .about__bio {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .about__bio p {
+    margin-top: 1.5rem;
   }
   .projects__bio-image {
     height: 40vh;
@@ -398,6 +404,9 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .about__bio {
+    width: 60%;
+  }
   .projects__items {
     grid-template-columns: repeat(3, 1fr);
   }
