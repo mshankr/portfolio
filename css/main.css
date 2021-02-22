@@ -24,7 +24,6 @@
   background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
   background-position: center top;
   background-size: cover;
-  line-height: 4rem;
 }
 
 .home__name {
@@ -33,6 +32,7 @@
   margin-bottom: 1rem;
   font-weight: 800;
   padding-bottom: 1rem;
+  line-height: 4rem;
 }
 
 .home__name--last {
