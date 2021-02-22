@@ -2,7 +2,7 @@
 
 Status: Projects not done
 
-[Live demo](https://mshankr.github.io/portfolio/dist)
+[Live demo](https://mshankr.github.io/portfolio/)
 
 Practise using SASS and a bit of vanilla JS to set up portfolio page.
 

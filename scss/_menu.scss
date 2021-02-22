@@ -99,9 +99,9 @@
     &__link {
       display: inline-block;
       font-size: 2rem;
-      text-transform: uppercase;
+      text-transform: lowercase;
       padding: 2rem 0;
-      font-weight: 700;
+      // font-weight: 700;
       @include transition-ease;
 
       &:hover {

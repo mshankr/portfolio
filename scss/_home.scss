@@ -14,15 +14,17 @@
     url("../img/model-1.jpg");
   background-position: center top;
   background-size: cover;
+  line-height: 4rem;
 
   &__name {
     font-size: 5rem;
     border-bottom: 2px solid #fff;
     margin-bottom: 1rem;
+    font-weight: 800;
+    padding-bottom: 1rem;
   }
 
   &__name--last {
     color: $secondary-color;
-    font-weight: 700;
   }
 }
