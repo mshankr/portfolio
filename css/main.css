@@ -28,6 +28,7 @@
   font-weight: 900;
   padding-bottom: 1rem;
   line-height: 4rem;
+  text-shadow: 3px 3px 4px #383c19;
 }
 
 .menu-btn {
@@ -162,8 +163,11 @@
   padding-bottom: 2rem;
 }
 
+.about__bio {
+  margin-top: 20px;
+}
+
 .about__bio-image {
-  height: 50vh;
   width: 100%;
   background-image: linear-gradient(to right, rgba(56, 60, 25, 0.9), rgba(56, 60, 25, 0.3)), url("../img/model-1.jpg");
   background-position: center top;
@@ -193,6 +197,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 2rem;
+  position: relative;
 }
 
 .about .jobs__job {
@@ -360,6 +365,18 @@
   font-weight: 400;
 }
 
+@media screen and (min-width: 300px) {
+  .about .jobs {
+    width: 85vw;
+    margin-left: 40px;
+  }
+  .about .social-icons {
+    font-size: 0.5rem;
+    margin-left: -10px;
+    padding: 0;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
@@ -381,9 +398,14 @@
   .nav .menu-nav__link {
     font-size: 1rem;
   }
+  .about .jobs {
+    width: 65vw;
+    margin-left: auto;
+  }
   .about__bio {
     font-size: 1.4rem;
     line-height: 1.6rem;
+    margin-top: 80px;
   }
   .about__bio p {
     margin-top: 1.5rem;

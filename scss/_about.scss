@@ -1,8 +1,12 @@
 .about {
   padding-bottom: 2rem;
 
+  &__bio {
+    margin-top: 20px;
+  }
+
   &__bio-image {
-    height: 50vh;
+    // height: 50vh;
     width: 100%;
     background-image: linear-gradient(
         to right,
@@ -41,6 +45,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
+    position: relative;
 
     &__job {
       background: lighten($primary-color, 10%);

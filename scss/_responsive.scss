@@ -1,3 +1,18 @@
+@include media-sm {
+  .about {
+    .jobs {
+      width: 85vw;
+      margin-left: 40px;
+    }
+
+    .social-icons {
+      font-size: 0.5rem;
+      margin-left: -10px;
+      padding: 0;
+    }
+  }
+}
+
 @include media-md {
   .menu-btn {
     visibility: hidden;
@@ -25,9 +40,14 @@
   }
 
   .about {
+    .jobs {
+      width: 65vw;
+      margin-left: auto;
+    }
     &__bio {
       font-size: 1.4rem;
       line-height: 1.6rem;
+      margin-top: 80px;
 
       p {
         margin-top: 1.5rem;
