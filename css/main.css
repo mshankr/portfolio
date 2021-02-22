@@ -22,16 +22,12 @@
 }
 
 .home__name {
-  font-size: 5rem;
+  font-size: 4rem;
   border-bottom: 2px solid #fff;
   margin-bottom: 1rem;
   font-weight: 900;
   padding-bottom: 1rem;
   line-height: 4rem;
-}
-
-.home__name--last {
-  color: #00dcaf;
 }
 
 .menu-btn {
@@ -361,7 +357,7 @@
 }
 
 .text-secondary {
-  font-weight: 200;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 768px) {
