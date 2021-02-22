@@ -16,7 +16,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-image: linear-gradient(to right, rgba(56, 60, 25, 0.9), rgba(56, 60, 25, 0.3)), url("../img/model-1.jpg");
   background-position: center top;
   background-size: cover;
 }
@@ -31,7 +31,7 @@
 }
 
 .home__name--last {
-  color: #ff652f;
+  color: #00dcaf;
 }
 
 .menu-btn {
@@ -109,7 +109,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
-  background: #272727;
+  background: #383c19;
   list-style-type: none;
   padding-right: 1rem;
   transform: translateX(100%);
@@ -130,7 +130,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #ff652f;
+  color: #00dcaf;
   transition: all 0.5s ease-in-out;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #ff652f;
+  color: #00dcaf;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -169,7 +169,7 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-image: linear-gradient(to right, rgba(56, 60, 25, 0.9), rgba(56, 60, 25, 0.3)), url("../img/model-1.jpg");
   background-position: center top;
   background-size: cover;
   display: flex;
@@ -200,9 +200,9 @@
 }
 
 .about .jobs__job {
-  background: #414141;
+  background: #5a6028;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #00dcaf;
 }
 
 .about .jobs__job h2,
@@ -237,7 +237,7 @@
 .projects__bio-image {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-image: linear-gradient(to right, rgba(56, 60, 25, 0.9), rgba(56, 60, 25, 0.3)), url("../img/model-1.jpg");
   background-position: center top;
   background-size: cover;
   display: flex;
@@ -262,7 +262,7 @@
 
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #00dcaf;
   overflow: hidden;
   cursor: pointer;
 }
@@ -278,7 +278,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #00dcaf;
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -336,7 +336,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/model-1.jpg");
+  background-image: linear-gradient(to right, rgba(56, 60, 25, 0.9), rgba(56, 60, 25, 0.3)), url("../img/model-1.jpg");
   background-position: center top;
   background-size: cover;
 }
@@ -425,7 +425,7 @@
 }
 
 body {
-  background: #272727;
+  background: #383c19;
   color: #fff;
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
@@ -469,7 +469,7 @@ main a {
 }
 
 main a:hover {
-  color: #ff652f;
+  color: #00dcaf;
 }
 
 main footer {
@@ -483,6 +483,6 @@ main footer {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #00dcaf;
 }
 /*# sourceMappingURL=main.css.map */
